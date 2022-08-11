@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from './components/Card'
+import Cards from './components/Cards'
+import './'
 function App() {
+  
   return (
-    <div>
-        <h1>
-            <Card/>
-        </h1>
+    <div className="App">
+      <Cards/>
     </div>
   )
 }
