@@ -1,0 +1,4 @@
+Que es Gradient? Gradient es una pagina para para el background de nuestra pagina, luego solo copiamos el cofigo y lo pegamos en app.css
+https://cssgradient.io/
+
+Aprestar atencion en el min 23:30

@@ -1,10 +1,11 @@
 import React from 'react'
 
 import img1 from '../assets/img1.jpg'
-function card() {
+function card(props) {
+  console.log(props)
   return (
     <div className='card text-center bg-dark'>
-      <img src={img1} alt=""/>
+      <img src="" alt=""/>
         <div className="card-body text-light">
           <h4  className="card-title">My title</h4>
           <p className='card-text text-secondary'>lorem asdlkfaslñdfj ldkfjals djflas jdf</p>
