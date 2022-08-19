@@ -1,15 +1,13 @@
 import React from 'react'
 
-import img1 from '../assets/img1.jpg'
-function card(props) {
-  console.log(props)
+function card({title, imageSource, url}) {
   return (
     <div className='card text-center bg-dark'>
-      <img src="" alt=""/>
+      <img src={imageSource} alt=""/>
         <div className="card-body text-light">
-          <h4  className="card-title">My title</h4>
+          <h4  className="card-title">{title}</h4>
           <p className='card-text text-secondary'>lorem asdlkfaslñdfj ldkfjals djflas jdf</p>
-          <a href='#!' className='btn btn-outline-secondary border-0'> Click Para Entrar</a>
+          <a href={url} className='btn btn-outline-secondary border-0'> Click Para Entrar</a>
         </div>
     </div>
   )
