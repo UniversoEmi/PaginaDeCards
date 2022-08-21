@@ -1,14 +1,14 @@
 import React from 'react'
 import Card from './Card'
 
-import img1 from '../assets/img1.jpg'
+import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 
 const cards = [ 
   {
     id: 1,
-  title: 'Emi Web',
+  title: 'My GitHub',
   image: img1,
   url: 'https://github.com/UniversoEmi?tab=repositories'
   },
