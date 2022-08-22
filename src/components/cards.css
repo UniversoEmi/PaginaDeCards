@@ -2,3 +2,23 @@
     box-shadow: 5px 10px 20px 1px rgba(55, 52, 243, 0.87) !important;
     transition: all 0.3s linear;
 }
+
+.card-budy{
+    padding: 2rem 0 !important;
+}
+
+.card-text{
+    padding: 0.3rem 1rem; /*0.3 hacia arriba y abajo 1rem a los costados*/
+    font-size: 1rem;
+}
+
+.overflow{
+    overflow:hidden;
+}
+.card-img-top{
+    transition: all 0.2s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.8);
+}

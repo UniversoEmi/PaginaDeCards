@@ -8,7 +8,7 @@ import img3 from '../assets/img3.png'
 const cards = [ 
   {
     id: 1,
-  title: 'My GitHub',
+  title: 'My Respositories',
   image: img1,
   url: 'https://github.com/UniversoEmi?tab=repositories'
   },
